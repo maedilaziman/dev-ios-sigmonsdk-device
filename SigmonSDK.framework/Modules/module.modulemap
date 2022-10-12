@@ -1,0 +1,11 @@
+framework module SigmonSDK {
+  umbrella header "SigmonSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SigmonSDK.Swift {
+    header "SigmonSDK-Swift.h"
+    requires objc
+}
