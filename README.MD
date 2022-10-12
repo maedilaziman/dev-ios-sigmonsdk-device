@@ -1,5 +1,5 @@
 # About
-Sigmon SDK Development for Simulator
+Sigmon SDK Development for Device
 <!--
 <br/>
 <br/>
