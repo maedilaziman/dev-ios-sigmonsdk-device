@@ -23,7 +23,7 @@ After donwloading SigmonSDK.framework, please open your project and then add Sig
 <br/>
 Once you have successfully add SigmonSDK.framework, select the project in the Project navigator, and then open the General tab, look at 'Frameworks, Libraries, and Embedded Content',
 <br/>
-please choose Embed Without Signing in the SigmonSDK.framework as shown below.
+please choose Embed & Sign in the SigmonSDK.framework as shown below.
 <br/>
 <img src="https://raw.githubusercontent.com/maedilaziman/dev-ios-sigmonsdk/master/Screenshots/IMG_02.png" width="300" />
 <br/>
