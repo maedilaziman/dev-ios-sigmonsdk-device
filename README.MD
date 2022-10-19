@@ -19,24 +19,24 @@ https://www.youtube.com/watch?v=44bI5ev9ASk
 <br/>
 After donwloading SigmonSDK.framework, please open your project and then add SigmonSDK.framework to your project as shown below.
 <br/>
-<img src="https://raw.githubusercontent.com/maedilaziman/dev-ios-sigmonsdk/master/Screenshots/IMG_01.png" width="300" />
+<img src="https://raw.githubusercontent.com/maedilaziman/dev-ios-sigmonsdk-device/master/Screenshots/IMG_01.png" width="300" />
 <br/>
 Once you have successfully add SigmonSDK.framework, select the project in the Project navigator, and then open the General tab, look at 'Frameworks, Libraries, and Embedded Content',
 <br/>
 please choose Embed & Sign in the SigmonSDK.framework as shown below.
 <br/>
-<img src="https://raw.githubusercontent.com/maedilaziman/dev-ios-sigmonsdk/master/Screenshots/IMG_02.png" width="300" />
+<img src="https://raw.githubusercontent.com/maedilaziman/dev-ios-sigmonsdk-device/master/Screenshots/IMG_02.png" width="300" />
 <br/>
 Select info.plist and add App Transport Security Settings until Privacy - Location When In Use Usage Description as shown below.
 <br/>
-<img src="https://raw.githubusercontent.com/maedilaziman/dev-ios-sigmonsdk/master/Screenshots/IMG_03.png" width="300" />
+<img src="https://raw.githubusercontent.com/maedilaziman/dev-ios-sigmonsdk-device/master/Screenshots/IMG_03.png" width="300" />
 <br/>
 You have successfully add SigmonSDK.framework to your project
 <h2>How To Use</h2>
 <br/>
 Open your UIViewController class, then import SigmonSDK, in that class please implement protocol SMSDKMainSpeedTestComm and SMSDKMainSpeedTestSetCredentialComm as shown below.
 <br/>
-<img src="https://raw.githubusercontent.com/maedilaziman/dev-ios-sigmonsdk/master/Screenshots/IMG_04.png" width="300" />
+<img src="https://raw.githubusercontent.com/maedilaziman/dev-ios-sigmonsdk-device/master/Screenshots/IMG_04.png" width="300" />
 This set credential key is mandatory, you can't fill empty credential key
 <pre>
     <code>
@@ -59,16 +59,16 @@ about the error description
 <br/>
 Declare SMSDKMainSpeedTestUI and SMSDKMainSpeedTestMainUI classes as shown below.
 <br/>
-<img src="https://raw.githubusercontent.com/maedilaziman/dev-ios-sigmonsdk/master/Screenshots/IMG_05.png" width="300" />
+<img src="https://raw.githubusercontent.com/maedilaziman/dev-ios-sigmonsdk-device/master/Screenshots/IMG_05.png" width="300" />
 <br/>
 Initialize SMSDKMainSpeedTestUI and SMSDKMainSpeedTestMainUI classes as shown below.
 <br/>
-<img src="https://raw.githubusercontent.com/maedilaziman/dev-ios-sigmonsdk/master/Screenshots/IMG_06.png" width="300" />
+<img src="https://raw.githubusercontent.com/maedilaziman/dev-ios-sigmonsdk-device/master/Screenshots/IMG_06.png" width="300" />
 <br/>
 After you have initialize SMSDKMainSpeedTestUI and SMSDKMainSpeedTestMainUI classes, you can add startSpeedTest() action in your event. Like the image below.
 (startSpeedTest() method will return an empty string if there is no error message.)
 <br/>
-<img src="https://raw.githubusercontent.com/maedilaziman/dev-ios-sigmonsdk/master/Screenshots/IMG_07.png" width="300" />
+<img src="https://raw.githubusercontent.com/maedilaziman/dev-ios-sigmonsdk-device/master/Screenshots/IMG_07.png" width="300" />
 <br/>
 <b>Note:</b> before you access startSpeedTest() action, you must initialize SMSDKMainSpeedTestUI and SMSDKMainSpeedTestMainUI classes
 <br/>
