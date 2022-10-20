@@ -15,6 +15,12 @@ https://www.youtube.com/watch?v=44bI5ev9ASk
 <li>XCode 13.2.1</li>
 <li>Swift 5.0</li>
 </ul>
+<h2>Minimum OS Version</h2>
+<ul>
+<li>Minimum OS Version for iPhone/iPad is 15.0</li>
+</ul>
+<br/>
+<b>Note:</b> If you are using iPhone/iPad with OS below 15.0 you will get error/issue something like <b>/SigmonSDK.framework/SigmonSDK (which was built for iOS 15.2)</b>
 <h2>How To Install</h2>
 <br/>
 After donwloading SigmonSDK.framework, please open your project and then add SigmonSDK.framework to your project as shown below.
